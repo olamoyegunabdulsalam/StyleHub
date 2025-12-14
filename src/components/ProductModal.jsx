@@ -17,7 +17,7 @@ export const ProductModal = ({ product, isOpen, onClose }) => {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black bg-opacity-50 backdrop-blur-sm">
-      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-md md:max-w-4xl h-auto md:h-auto overflow-y-auto animate-modal">
+      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-md md:max-w-4xl max-h-[80vh] overflow-y-auto animate-modal">
         <div className="flex flex-col md:flex-row">
           {/* Image */}
           <div className="w-full md:w-1/2 p-4 md:p-6">
